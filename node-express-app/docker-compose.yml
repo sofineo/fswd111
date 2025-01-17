@@ -1,13 +1,7 @@
 services:
-  web:
-    build: .
-    ports:
-      - "3000:3000"
-    volumes:
-      - .:/app
   my-node-app:
     build: .
     ports:
-      - "9000:3000"
+      - "3000:3000"
     volumes:
       - .:/app
